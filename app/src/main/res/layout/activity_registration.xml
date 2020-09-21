@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    tools:context=".registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="395dp"
+        android:layout_height="149dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Register ShopKeeper"
+        android:textColor="@color/Black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <EditText
+        android:id="@+id/edittextemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:baselineAligned="false"
+        android:hint="Email"
+        android:inputType="text"
+        android:paddingTop="50dp" />
+
+    <EditText
+        android:id="@+id/edittextfullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:hint="Shop Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/reguserid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:hint="User Id"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edittextphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:hint="Mobile NO."
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password" />
+
+    <Switch
+        android:id="@+id/permissionswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="false"
+        android:visibility="invisible"
+        android:text="Permission"/>
+
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="@drawable/capbtn"
+        android:hint="@string/register"
+        android:textColor="@color/Black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Sign In"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+
+</LinearLayout>
+
+</ScrollView>

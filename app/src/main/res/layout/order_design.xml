@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B6C803"
+    app:cardBackgroundColor="#7EC1F6"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:id="@+id/aorvorderlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/aousername"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="User Name"
+            android:textColor="@color/Black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/aophone"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Phone Number"
+            android:textColor="@color/Black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/aototalprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aophone"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Product Price"
+            android:textColor="@color/Black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/aoaddcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aototalprice"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Address/City"
+            android:textColor="@color/Black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/aodatetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aoaddcity"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Date/Time"
+            android:textColor="@color/Black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/aoshowallprobtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aodatetime"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:background="#6273D3"
+            android:text="Shows Orders Product" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

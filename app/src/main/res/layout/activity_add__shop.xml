@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".Add_Shop">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Shop"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/addshopimagebutton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/addbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView"
+        />
+
+    <EditText
+        android:id="@+id/shopname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addshopimagebutton"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint="Shop Name"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/etframe"/>
+
+    <EditText
+        android:id="@+id/shopdescryption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopname"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint="Shop Descryption"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/etframe"/>
+
+    <EditText
+        android:id="@+id/shopcatgeroy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopdescryption"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint="Shop Category"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/etframe"/>
+
+    <Button
+        android:id="@+id/btnaddshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shopcatgeroy"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/capbtn"
+        android:padding="17dp"
+        android:text="Add Shop"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <Switch
+        android:id="@+id/permissionswitch"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="679dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginRight="234dp"
+        android:layout_marginBottom="25dp"
+        android:visibility="invisible"
+        android:text="Permission" />
+
+
+</RelativeLayout>

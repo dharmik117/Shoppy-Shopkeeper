@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopkeeper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UD_Products"></activity>
+        <activity android:name=".Edit_Product" />
+        <activity android:name=".Change_Ready_Status" />
+        <activity android:name=".View_Order_Product" />
+        <activity android:name=".View_Orders" />
+        <activity android:name=".Add_Product" />
+        <activity android:name=".Add_Shop" />
+        <activity android:name=".Edit_Profile" />
+        <activity android:name=".ViewProfile" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Board" />
+        <activity android:name=".LoginPanel" />
+        <activity android:name=".registration" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
